@@ -156,9 +156,6 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_stf007_name'))]"
             ],
             "properties": {
-                "immutableStorageWithVersioning": {
-                    "enabled": false
-                },
                 "defaultEncryptionScope": "$account-encryption-key",
                 "denyEncryptionScopeOverride": false,
                 "publicAccess": "None"
@@ -173,9 +170,6 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccounts_stf007_name'))]"
             ],
             "properties": {
-                "immutableStorageWithVersioning": {
-                    "enabled": false
-                },
                 "defaultEncryptionScope": "$account-encryption-key",
                 "denyEncryptionScopeOverride": false,
                 "publicAccess": "None"

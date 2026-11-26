@@ -3,9 +3,4 @@ set -euo pipefail
 
 script_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 
-az deployment group create \
-    --resource-group guemry-reda \
-    --name deploy-storage \
-    --mode Incremental \
-    --template-file "$script_dir/template.json" \
-    --parameters "@$script_dir/parameters.json"
+exec bash "$script_dir/lib/deploy.sh" storage "$@"

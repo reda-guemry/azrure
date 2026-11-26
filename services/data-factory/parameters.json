@@ -2,12 +2,6 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "subscription": {
-            "value": "59b3f2eb-caba-469e-afca-cde678d49c24"
-        },
-        "resourceGroup": {
-            "value": "guemry-reda"
-        },
         "name": {
             "value": "df007df"
         },
@@ -30,9 +24,6 @@
         },
         "publicNetworkAccess": {
             "value": true
-        },
-        "privateEndpoints": {
-            "value": []
         },
         "gitConfigureLater": {
             "value": true

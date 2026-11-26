@@ -1,0 +1,6 @@
+.env
+*.local.json
+.azure/
+.aws/
+.agents/
+.codex/
